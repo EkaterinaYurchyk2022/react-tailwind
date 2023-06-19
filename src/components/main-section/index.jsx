@@ -10,7 +10,7 @@ const MainSection = () => {
     return (
         <section className='w-full flex mt-6 h-screen justify-between'>
             <div className='relative text-left mt-12'>
-                <h1 className='text-8xl font-black mt-60 whitespace-pre-line'>{`Make\n remote work`}</h1>
+                <h1 className='text-3xl xl:text-8xl font-black mt-60 whitespace-pre-line'>{`Make\n remote work`}</h1>
                 <p className='text-medium-gray text-lg my-12 whitespace-pre-line'>{`Lorem ipsum dolor, sit amet consectetur adipisicing elit.\n Amet ullam dolorum animi atque vitae exercitationem\n quibusdam maiores adipisci qui harum.`}</p>
                 <Button isFilled>Learn more</Button>
                 <div className='flex justify-around absolute bottom-2 w-full'>
