@@ -7,7 +7,7 @@ import Button from "../button";
 
 const Header = () => {
     return (
-        <header className='flex'>
+        <header className='flex items-center'>
             <LogoIcon />
             <nav className='flex space-x-6 ml-8 items-center'>
                 <NavItem text='Feature' >
